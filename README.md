@@ -1,38 +1,30 @@
-# ViteVue3Starter
+# ViteVue3Starter：快速脚手架
 
-This template should help get you started developing with Vue 3 in Vite.
+#### 基于 vue3+vite+Typescript+pinia+JSX+vueRouter+rolldown-vite+prettier+eslint+Antdvue+Tailwindcss
 
-## Recommended IDE Setup
+## <span style="color: red; font-weight: bold;">必须使用Pnpm安装</span>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+### 1.node版本是22.18.0
+### 2.切换node版本可使用nvm ：https://nvm.uihtm.com/
+### 3.安装依赖使用pnpm
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### 4.项目启动使用
 
 ```sh
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## 5.项目打包使用
 
 ```sh
 pnpm build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## 6.eslint使用
 
 ```sh
 pnpm lint

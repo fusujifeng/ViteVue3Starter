@@ -14,9 +14,11 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "prepare": "husky"
+    "prepare": "husky",
+    "preinstall": "npx -y only-allow pnpm"
   },
   "dependencies": {
+    "only-allow": "^1.2.1",
     "pinia": "^3.0.3",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
