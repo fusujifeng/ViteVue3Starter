@@ -18,6 +18,7 @@
     "preinstall": "npx -y only-allow pnpm"
   },
   "dependencies": {
+    "ant-design-vue": "4.2.6",
     "only-allow": "^1.2.1",
     "pinia": "^3.0.3",
     "vue": "^3.5.18",
@@ -39,6 +40,7 @@
     "prettier": "3.6.2",
     "sass": "^1.90.0",
     "typescript": "~5.8.0",
+    "unplugin-vue-components": "^29.0.0",
     "vite": "npm:rolldown-vite@latest",
     "vite-plugin-vue-devtools": "^8.0.0",
     "vue-tsc": "^3.0.4"
