@@ -7,10 +7,15 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "scripts": {
-    "dev": "vite --open chrome",
+    "dev": "vite dev --mode dev --open chrome",
+    "dev:prod": "vite dev --mode prod --open chrome",
     "build": "run-p type-check \"build-only {@}\" --",
-    "preview": "vite preview",
+    "build:dev": "vite build --mode dev",
+    "build:prod": "vite build --mode prod",
     "build-only": "vite build",
+    "preview": "vite preview",
+    "preview:dev": "vite preview --mode dev",
+    "preview:prod": "vite preview --mode prod",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",

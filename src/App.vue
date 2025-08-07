@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { envConfig } from '@/utils/env'
+
+// 设置页面标题
+document.title = envConfig.appTitle
+</script>
 
 <template>
   <h1 class="container">You did it!</h1>
