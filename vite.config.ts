@@ -7,6 +7,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // antdvue按需引入
 import Components from 'unplugin-vue-components/vite';
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
+import tailwindcss from '@tailwindcss/vite'
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -20,6 +22,7 @@ export default defineConfig({
         }),
       ],
     }),
+    tailwindcss(),
   ],
   resolve: {
     alias: {

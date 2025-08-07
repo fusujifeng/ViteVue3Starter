@@ -18,9 +18,11 @@
     "preinstall": "npx -y only-allow pnpm"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
     "ant-design-vue": "4.2.6",
     "only-allow": "^1.2.1",
     "pinia": "^3.0.3",
+    "tailwindcss": "^4.1.11",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
