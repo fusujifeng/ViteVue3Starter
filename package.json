@@ -15,7 +15,7 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "prepare": "husky",
-    "preinstall": "npx -y only-allow pnpm"
+    "preinstall": "node scripts/check-package-manager.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
