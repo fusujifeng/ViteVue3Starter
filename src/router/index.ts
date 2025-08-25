@@ -1,10 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { coreRoutes } from './coreRoutes'
 import { staticRoutes } from './staticRoutes'
-import {
-  dynamicRouteTemplates,
-  filterRoutesByPermission,
-} from './dynamicRoutes'
+import { dynamicRouteTemplates, filterRoutesByPermission } from './dynamicRoutes'
 
 /**
  * 路由系统入口
