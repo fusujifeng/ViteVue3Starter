@@ -1,28 +1,25 @@
 <script setup lang="ts">
 import { envConfig } from '@/utils/env'
+// 导入Ant Design Vue样式
+import 'ant-design-vue/dist/reset.css'
 
 // 设置页面标题
 document.title = envConfig.appTitle
 </script>
 
 <template>
-  <h1 class="container">You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
-  <span class="w-32 h-32 bg-red-500"> documentation </span>
-  <a-button type="primary">Primary Button</a-button>
+  <router-view />
 </template>
 
-<style lang="scss" scoped>
-$primary-color: #42b983;
-.container {
-  color: $primary-color;
-  padding: 20px;
+<style>
+#app {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif;
+}
 
-  .title {
-    font-size: 18px;
-  }
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>
